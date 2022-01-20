@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  overflow-y: auto;
 }
 
 .App-logo {
