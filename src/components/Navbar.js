@@ -1,43 +1,55 @@
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
-import MenuItem from "@mui/material/MenuItem";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 
-const pages = ["Projects", "Skills", "About Me"];
+const pages = ["Projects", "Skills", "About"];
 
 const Navbar = () => {
   return (
-    <AppBar position="static">
+    <AppBar
+      position="static"
+      style={{ background: "transparent", boxShadow: "none" }}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
+          <Button
             variant="h6"
-            noWrap
-            component="div"
-            sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
+            sx={{
+              mr: 4,
+              display: { xs: "none", md: "flex" },
+              color: "black",
+              fontSize: "18px",
+              fontWeight: "bold",
+              fontFamily: "Roboto Mono",
+              textTransform: "none",
+            }}
           >
             Home
-          </Typography>
+          </Button>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
                 key={page}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{
+                  my: 2,
+                  color: "black",
+                  display: "block",
+                  fontWeight: "bold",
+                  fontFamily: "Roboto Mono",
+                  textTransform: "none",
+                }}
               >
                 {page}
               </Button>
             ))}
           </Box>
-          <Typography>Github</Typography>
-          <Typography>Mail</Typography>
+          <GitHubIcon sx={{ mr: 2, color: "black", fontSize: "30px" }} />
+          <EmailIcon sx={{ color: "black", fontSize: "30px" }} />
         </Toolbar>
       </Container>
     </AppBar>
