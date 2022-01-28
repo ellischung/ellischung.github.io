@@ -1,9 +1,10 @@
 import "./App.css";
+import Scramble from "react-scramble";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import About from "./components/About";
-import Scramble from "react-scramble";
 import Avatar from "@mui/material/Avatar";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <div className="header">
         {/* Header */}
         <Avatar
-          alt="ellis chung"
+          alt="profile"
           src={`${process.env.PUBLIC_URL}/temp.jpg`}
           sx={{
             my: 4,
@@ -24,9 +25,10 @@ function App() {
         <Scramble
           autoStart
           text="ellis chung"
+          mouseEnterTrigger="restart"
           steps={[
             {
-              roll: 20,
+              roll: 15,
               action: "+",
               type: "all",
             },
@@ -43,37 +45,7 @@ function App() {
             fontFamily: "Roboto Mono",
           }}
         />
-        <Scramble
-          autoStart
-          text="software engineer"
-          steps={[
-            {
-              roll: 20,
-              action: "+",
-              type: "all",
-            },
-            {
-              action: "-",
-              type: "forward",
-            },
-            {
-              roll: 20,
-              action: "+",
-              type: "all",
-            },
-            {
-              action: "-",
-              type: "forward",
-            },
-          ]}
-          style={{
-            marginBottom: "20px",
-            color: "#515151",
-            fontSize: "20px",
-            fontWeight: "bold",
-            fontFamily: "Roboto Mono",
-          }}
-        />
+        <Header />
       </div>
       <Projects />
       <Resume />
