@@ -19,13 +19,6 @@
   }
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* might not need below header */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

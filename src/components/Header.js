@@ -1,5 +1,6 @@
 import React from "react";
 import Scramble from "react-scramble";
+import Avatar from "@mui/material/Avatar";
 
 class Header extends React.Component {
   componentDidMount() {
@@ -11,7 +12,46 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          textAlign: "center",
+        }}
+      >
+        <Avatar
+          alt="profile"
+          src={`${process.env.PUBLIC_URL}/temp.jpg`}
+          sx={{
+            my: 4,
+            width: 150,
+            height: 150,
+          }}
+        />
+        <Scramble
+          autoStart
+          text="ellis chung"
+          mouseEnterTrigger="restart"
+          steps={[
+            {
+              roll: 15,
+              action: "+",
+              type: "all",
+            },
+            {
+              action: "-",
+              type: "forward",
+            },
+          ]}
+          style={{
+            marginBottom: "20px",
+            color: "black",
+            fontSize: "32px",
+            fontWeight: "bold",
+            fontFamily: "Roboto Mono",
+          }}
+        />
         <Scramble
           autoStart
           text="software engineer"
