@@ -100,7 +100,12 @@ class Header extends React.Component {
           }}
         />
         <p
-          style={{ color: "#727272", fontFamily: "Open Sans", width: "600px" }}
+          style={{
+            marginBottom: "100px",
+            color: "#727272",
+            fontFamily: "Open Sans",
+            width: "600px",
+          }}
         >
           Hello! I'm a Full Stack Web Developer based in NY who is open to any
           tech opportunities as well as learning new tech! I have created a
@@ -110,20 +115,19 @@ class Header extends React.Component {
         </p>
         <p
           style={{
-            color: "black",
+            marginBottom: "40px",
             fontSize: "20px",
             fontWeight: "bold",
             fontFamily: "Roboto Mono",
-            marginBottom: "50px",
           }}
         >
           Stack
         </p>
-        <Grid container rowSpacing={10} columnSpacing={-100}>
+        <Grid container rowSpacing={5} columnSpacing={-100}>
           <Grid item xs={4}>
             <Card
               sx={{
-                maxWidth: 800,
+                maxWidth: 500,
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -131,10 +135,13 @@ class Header extends React.Component {
               <img
                 alt="javascript"
                 src={`${process.env.PUBLIC_URL}/jslogo.png`}
-                style={{ width: 100, height: 100 }}
+                style={{ width: 70, height: 70 }}
               />
               <CardContent>
-                <Typography gutterBottom style={{ fontFamily: "Open Sans" }}>
+                <Typography
+                  gutterBottom
+                  style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+                >
                   Javascript
                 </Typography>
                 <Typography
@@ -150,18 +157,21 @@ class Header extends React.Component {
           <Grid item xs={4}>
             <Card
               sx={{
-                maxWidth: 800,
+                maxWidth: 500,
                 background: "transparent",
                 boxShadow: "none",
               }}
             >
               <img
                 alt="react"
-                src={`${process.env.PUBLIC_URL}/logo512.png`}
-                style={{ width: 100, height: 100 }}
+                src={`${process.env.PUBLIC_URL}/logo192.png`}
+                style={{ width: 70, height: 70 }}
               />
               <CardContent>
-                <Typography gutterBottom style={{ fontFamily: "Open Sans" }}>
+                <Typography
+                  gutterBottom
+                  style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+                >
                   React
                 </Typography>
                 <Typography
@@ -177,7 +187,7 @@ class Header extends React.Component {
           <Grid item xs={4}>
             <Card
               sx={{
-                maxWidth: 800,
+                maxWidth: 500,
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -185,10 +195,13 @@ class Header extends React.Component {
               <img
                 alt="node"
                 src={`${process.env.PUBLIC_URL}/nodelogo.png`}
-                style={{ width: 150, height: 100 }}
+                style={{ width: 100, height: 70 }}
               />
               <CardContent>
-                <Typography gutterBottom style={{ fontFamily: "Open Sans" }}>
+                <Typography
+                  gutterBottom
+                  style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+                >
                   NodeJS
                 </Typography>
                 <Typography
@@ -204,7 +217,7 @@ class Header extends React.Component {
           <Grid item xs={4}>
             <Card
               sx={{
-                maxWidth: 800,
+                maxWidth: 500,
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -212,10 +225,13 @@ class Header extends React.Component {
               <img
                 alt="mongodb"
                 src={`${process.env.PUBLIC_URL}/mongodblogo.png`}
-                style={{ width: 300, height: 100 }}
+                style={{ width: 210, height: 70 }}
               />
               <CardContent>
-                <Typography gutterBottom style={{ fontFamily: "Open Sans" }}>
+                <Typography
+                  gutterBottom
+                  style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+                >
                   MongoDB
                 </Typography>
                 <Typography
@@ -231,7 +247,7 @@ class Header extends React.Component {
           <Grid item xs={4}>
             <Card
               sx={{
-                maxWidth: 800,
+                maxWidth: 500,
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -239,10 +255,13 @@ class Header extends React.Component {
               <img
                 alt="scss"
                 src={`${process.env.PUBLIC_URL}/scsslogo.png`}
-                style={{ width: 100, height: 100 }}
+                style={{ width: 70, height: 70 }}
               />
               <CardContent>
-                <Typography gutterBottom style={{ fontFamily: "Open Sans" }}>
+                <Typography
+                  gutterBottom
+                  style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+                >
                   Scss
                 </Typography>
                 <Typography
@@ -258,7 +277,7 @@ class Header extends React.Component {
           <Grid item xs={4}>
             <Card
               sx={{
-                maxWidth: 800,
+                maxWidth: 500,
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -266,10 +285,13 @@ class Header extends React.Component {
               <img
                 alt="git"
                 src={`${process.env.PUBLIC_URL}/gitlogo.png`}
-                style={{ width: 200, height: 100 }}
+                style={{ width: 140, height: 70 }}
               />
               <CardContent>
-                <Typography gutterBottom style={{ fontFamily: "Open Sans" }}>
+                <Typography
+                  gutterBottom
+                  style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+                >
                   Git
                 </Typography>
                 <Typography
