@@ -116,14 +116,18 @@ class Header extends React.Component {
         <p
           style={{
             marginBottom: "40px",
-            fontSize: "20px",
+            fontSize: "24px",
             fontWeight: "bold",
             fontFamily: "Roboto Mono",
           }}
         >
           Stack
         </p>
-        <Grid container rowSpacing={5} columnSpacing={-100}>
+        <Grid
+          container
+          rowSpacing={5}
+          style={{ marginBottom: "100px", width: "60%" }}
+        >
           <Grid item xs={4}>
             <Card
               sx={{
@@ -149,7 +153,7 @@ class Header extends React.Component {
                   color="text.secondary"
                   style={{ fontFamily: "Open Sans" }}
                 >
-                  Using ES6 for all projects
+                  Using ES6 for projects
                 </Typography>
               </CardContent>
             </Card>
@@ -209,7 +213,7 @@ class Header extends React.Component {
                   color="text.secondary"
                   style={{ fontFamily: "Open Sans" }}
                 >
-                  Web applications utilizing Express.js
+                  Using Express.js for web applications
                 </Typography>
               </CardContent>
             </Card>
@@ -239,7 +243,7 @@ class Header extends React.Component {
                   color="text.secondary"
                   style={{ fontFamily: "Open Sans" }}
                 >
-                  Database to store user data
+                  Using to store user data
                 </Typography>
               </CardContent>
             </Card>
