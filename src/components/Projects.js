@@ -238,14 +238,11 @@ const Projects = () => {
               <Typography
                 variant="body2"
                 color="text.secondary"
-                style={{ fontFamily: "Open Sans" }}
+                style={{ fontFamily: "Open Sans", height: 120 }}
               >
-                A web application that utilizes the MyAnimeList API to help
-                users get accurate recommendations of their favorite animes.
-                Users can also view other interesting statistics such as the
-                total score distribution of an anime based on all MyAnimeList
-                users. This project was built with React.js and styled using
-                SCSS.
+                Projects on low-level system concepts written in C. Topics
+                include valgrind, GDB/CGDB, dynamic memory allocation,
+                shell/terminal multiplexers, and multithreading.
               </Typography>
             </CardContent>
             <CardActions sx={{ background: "white", justifyContent: "center" }}>
@@ -278,14 +275,12 @@ const Projects = () => {
               <Typography
                 variant="body2"
                 color="text.secondary"
-                style={{ fontFamily: "Open Sans" }}
+                style={{ fontFamily: "Open Sans", height: 120 }}
               >
-                A web application that utilizes the MyAnimeList API to help
-                users get accurate recommendations of their favorite animes.
-                Users can also view other interesting statistics such as the
-                total score distribution of an anime based on all MyAnimeList
-                users. This project was built with React.js and styled using
-                SCSS.
+                Projects on operating systems management written in Java.
+                Learned about the inner workings of operating systems through
+                these projects that cover the management of devices, memory, and
+                threads.
               </Typography>
             </CardContent>
             <CardActions sx={{ background: "white", justifyContent: "center" }}>
