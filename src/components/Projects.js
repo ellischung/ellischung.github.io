@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -10,41 +10,15 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles({
   root: {
     transition: "transform 0.15s ease-in-out",
-    "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
+    "&:hover": {
+      transform: "scale3d(1.05, 1.05, 1)",
+      boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.33)",
+    },
   },
 });
 
 const Projects = () => {
   const classes = useStyles();
-  const [hover1, setHover1] = useState({
-    raised: false,
-    shadow: 5,
-  });
-
-  const [hover2, setHover2] = useState({
-    raised: false,
-    shadow: 1,
-  });
-
-  const [hover3, setHover3] = useState({
-    raised: false,
-    shadow: 1,
-  });
-
-  const [hover4, setHover4] = useState({
-    raised: false,
-    shadow: 1,
-  });
-
-  const [hover5, setHover5] = useState({
-    raised: false,
-    shadow: 1,
-  });
-
-  const [hover6, setHover6] = useState({
-    raised: false,
-    shadow: 1,
-  });
 
   return (
     <div
@@ -74,10 +48,6 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card
             className={classes.root}
-            onMouseOver={() => setHover1({ raised: true, shadow: 3 })}
-            onMouseOut={() => setHover1({ raised: false, shadow: 1 })}
-            raised={hover1.raised}
-            zDepth={hover1.shadow}
             sx={{ maxWidth: 500, background: "#D8D8D8" }}
           >
             <img
@@ -121,10 +91,6 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card
             className={classes.root}
-            onMouseOver={() => setHover2({ raised: true, shadow: 3 })}
-            onMouseOut={() => setHover2({ raised: false, shadow: 1 })}
-            raised={hover2.raised}
-            zDepth={hover2.shadow}
             sx={{ maxWidth: 500, background: "#D8D8D8" }}
           >
             <img
@@ -179,10 +145,6 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card
             className={classes.root}
-            onMouseOver={() => setHover3({ raised: true, shadow: 3 })}
-            onMouseOut={() => setHover3({ raised: false, shadow: 1 })}
-            raised={hover3.raised}
-            zDepth={hover3.shadow}
             sx={{ maxWidth: 500, background: "#D8D8D8" }}
           >
             <img
@@ -229,10 +191,6 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card
             className={classes.root}
-            onMouseOver={() => setHover4({ raised: true, shadow: 3 })}
-            onMouseOut={() => setHover4({ raised: false, shadow: 1 })}
-            raised={hover4.raised}
-            zDepth={hover4.shadow}
             sx={{ maxWidth: 500, background: "#D8D8D8" }}
           >
             <img
@@ -291,10 +249,6 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card
             className={classes.root}
-            onMouseOver={() => setHover5({ raised: true, shadow: 3 })}
-            onMouseOut={() => setHover5({ raised: false, shadow: 1 })}
-            raised={hover5.raised}
-            zDepth={hover5.shadow}
             sx={{ maxWidth: 500, background: "#D8D8D8" }}
           >
             <img
@@ -335,10 +289,6 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card
             className={classes.root}
-            onMouseOver={() => setHover6({ raised: true, shadow: 3 })}
-            onMouseOut={() => setHover6({ raised: false, shadow: 1 })}
-            raised={hover6.raised}
-            zDepth={hover6.shadow}
             sx={{ maxWidth: 500, background: "#D8D8D8" }}
           >
             <img
