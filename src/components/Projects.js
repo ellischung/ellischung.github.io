@@ -2,7 +2,9 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import CardActions from "@mui/material/CardActions";
 import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
 
 const Projects = () => {
   return (
@@ -57,6 +59,17 @@ const Projects = () => {
                 designed using the MERN stack.
               </Typography>
             </CardContent>
+            <CardActions sx={{ background: "white", justifyContent: "center" }}>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open("http://mixtapeplus.herokuapp.com/", "_blank")
+                }
+              >
+                Website
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         <Grid item xs={4}>
@@ -85,6 +98,29 @@ const Projects = () => {
                 for the front end and Express.js was used for the back end.
               </Typography>
             </CardContent>
+            <CardActions sx={{ background: "white", justifyContent: "center" }}>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open("https://guesstheanime.netlify.app/", "_blank")
+                }
+              >
+                Website
+              </Button>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open(
+                    "https://github.com/ellischung/guess-the-anime",
+                    "_blank"
+                  )
+                }
+              >
+                Github
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         <Grid item xs={4}>
@@ -114,6 +150,20 @@ const Projects = () => {
                 Marketplace and OfferUp.
               </Typography>
             </CardContent>
+            <CardActions sx={{ background: "white", justifyContent: "center" }}>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open(
+                    "https://github.com/ellischung/mkt-scraper",
+                    "_blank"
+                  )
+                }
+              >
+                Github
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         <Grid item xs={4}>
@@ -143,6 +193,32 @@ const Projects = () => {
                 SCSS.
               </Typography>
             </CardContent>
+            <CardActions sx={{ background: "white", justifyContent: "center" }}>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open(
+                    "https://ellischung.github.io/recmeanime",
+                    "_blank"
+                  )
+                }
+              >
+                Website
+              </Button>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open(
+                    "https://github.com/ellischung/recmeanime",
+                    "_blank"
+                  )
+                }
+              >
+                Github
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         <Grid item xs={4}>
@@ -172,6 +248,17 @@ const Projects = () => {
                 SCSS.
               </Typography>
             </CardContent>
+            <CardActions sx={{ background: "white", justifyContent: "center" }}>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open("https://github.com/ellischung/CSE320", "_blank")
+                }
+              >
+                Github
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         <Grid item xs={4}>
@@ -201,6 +288,17 @@ const Projects = () => {
                 SCSS.
               </Typography>
             </CardContent>
+            <CardActions sx={{ background: "white", justifyContent: "center" }}>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open("https://github.com/ellischung/CSE306", "_blank")
+                }
+              >
+                Github
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
       </Grid>
