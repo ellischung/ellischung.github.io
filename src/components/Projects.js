@@ -27,7 +27,7 @@ const Projects = () => {
       <Grid
         container
         rowSpacing={5}
-        columnSpacing={{ xs: 5, sm: 6, md: 7 }}
+        columnSpacing={{ md: 7 }}
         style={{ marginBottom: "100px", width: "80%" }}
       >
         <Grid item xs={4}>
@@ -64,7 +64,7 @@ const Projects = () => {
             <img
               alt="node"
               src={`${process.env.PUBLIC_URL}/guesstheanime.gif`}
-              style={{ width: 300, height: 200 }}
+              style={{ width: 200, height: 200 }}
             />
             <CardContent sx={{ background: "white" }}>
               <Typography
@@ -117,13 +117,91 @@ const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card sx={{ maxWidth: 500 }}>4</Card>
+          <Card sx={{ maxWidth: 500, background: "#D8D8D8" }}>
+            <img
+              alt="node"
+              src={`${process.env.PUBLIC_URL}/recmeanime.png`}
+              style={{ width: 400, height: 200 }}
+            />
+            <CardContent sx={{ background: "white" }}>
+              <Typography
+                gutterBottom
+                style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+              >
+                RecMeAnime
+              </Typography>
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                style={{ fontFamily: "Open Sans" }}
+              >
+                A web application that utilizes the MyAnimeList API to help
+                users get accurate recommendations of their favorite animes.
+                Users can also view other interesting statistics such as the
+                total score distribution of an anime based on all MyAnimeList
+                users. This project was built with React.js and styled using
+                SCSS.
+              </Typography>
+            </CardContent>
+          </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card sx={{ maxWidth: 500 }}>5</Card>
+          <Card sx={{ maxWidth: 500, background: "#D8D8D8" }}>
+            <img
+              alt="node"
+              src={`${process.env.PUBLIC_URL}/clogo.png`}
+              style={{ width: 250, height: 200 }}
+            />
+            <CardContent sx={{ background: "white" }}>
+              <Typography
+                gutterBottom
+                style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+              >
+                C Projects
+              </Typography>
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                style={{ fontFamily: "Open Sans" }}
+              >
+                A web application that utilizes the MyAnimeList API to help
+                users get accurate recommendations of their favorite animes.
+                Users can also view other interesting statistics such as the
+                total score distribution of an anime based on all MyAnimeList
+                users. This project was built with React.js and styled using
+                SCSS.
+              </Typography>
+            </CardContent>
+          </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card sx={{ maxWidth: 500 }}>6</Card>
+          <Card sx={{ maxWidth: 500, background: "#D8D8D8" }}>
+            <img
+              alt="node"
+              src={`${process.env.PUBLIC_URL}/javalogo.png`}
+              style={{ width: 200, height: 200 }}
+            />
+            <CardContent sx={{ background: "white" }}>
+              <Typography
+                gutterBottom
+                style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+              >
+                OS Projects
+              </Typography>
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                style={{ fontFamily: "Open Sans" }}
+              >
+                A web application that utilizes the MyAnimeList API to help
+                users get accurate recommendations of their favorite animes.
+                Users can also view other interesting statistics such as the
+                total score distribution of an anime based on all MyAnimeList
+                users. This project was built with React.js and styled using
+                SCSS.
+              </Typography>
+            </CardContent>
+          </Card>
         </Grid>
       </Grid>
     </div>
