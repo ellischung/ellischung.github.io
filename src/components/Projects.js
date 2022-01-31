@@ -9,6 +9,8 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles({
   root: {
+    maxWidth: 500,
+    background: "#D8D8D8",
     transition: "transform 0.15s ease-in-out",
     "&:hover": {
       transform: "scale3d(1.05, 1.05, 1)",
@@ -46,10 +48,7 @@ const Projects = () => {
         style={{ marginBottom: "100px", width: "80%" }}
       >
         <Grid item xs={4}>
-          <Card
-            className={classes.root}
-            sx={{ maxWidth: 500, background: "#D8D8D8" }}
-          >
+          <Card className={classes.root}>
             <img
               alt="node"
               src={`${process.env.PUBLIC_URL}/mixtapepluslogo.png`}
@@ -89,10 +88,7 @@ const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card
-            className={classes.root}
-            sx={{ maxWidth: 500, background: "#D8D8D8" }}
-          >
+          <Card className={classes.root}>
             <img
               alt="node"
               src={`${process.env.PUBLIC_URL}/guesstheanime.gif`}
@@ -143,10 +139,7 @@ const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card
-            className={classes.root}
-            sx={{ maxWidth: 500, background: "#D8D8D8" }}
-          >
+          <Card className={classes.root}>
             <img
               alt="node"
               src={`${process.env.PUBLIC_URL}/puppeteerlogo.png`}
@@ -189,10 +182,7 @@ const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card
-            className={classes.root}
-            sx={{ maxWidth: 500, background: "#D8D8D8" }}
-          >
+          <Card className={classes.root}>
             <img
               alt="node"
               src={`${process.env.PUBLIC_URL}/recmeanime.png`}
@@ -247,10 +237,7 @@ const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card
-            className={classes.root}
-            sx={{ maxWidth: 500, background: "#D8D8D8" }}
-          >
+          <Card className={classes.root}>
             <img
               alt="node"
               src={`${process.env.PUBLIC_URL}/clogo.png`}
@@ -287,10 +274,7 @@ const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card
-            className={classes.root}
-            sx={{ maxWidth: 500, background: "#D8D8D8" }}
-          >
+          <Card className={classes.root}>
             <img
               alt="node"
               src={`${process.env.PUBLIC_URL}/javalogo.png`}
