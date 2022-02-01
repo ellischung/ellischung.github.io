@@ -2,12 +2,16 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import FeedIcon from "@mui/icons-material/Feed";
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles({
   root: {
     fontWeight: "bold",
     fontFamily: "Roboto Mono",
+    color: "black",
+    textDecoration: "none",
+    cursor: "pointer",
     transition: "transform 0.15s ease-in-out",
     "&:hover": {
       color: "blue",
@@ -41,7 +45,13 @@ const Contact = () => {
         style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
       >
         <EmailIcon sx={{ mr: 2 }} />
-        <Typography className={classes.root}>ellischung98@gmail.com</Typography>
+        <Typography
+          className={classes.root}
+          href="mailto:ellischung98@gmail.com"
+          component="a"
+        >
+          ellischung98@gmail.com
+        </Typography>
       </p>
       <p
         style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
@@ -55,10 +65,20 @@ const Contact = () => {
         </Typography>
       </p>
       <p
-        style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          marginBottom: "150px",
+        }}
       >
-        <GitHubIcon sx={{ mr: 2 }} />
-        <Typography className={classes.root}>CV</Typography>
+        <FeedIcon sx={{ mr: 2 }} />
+        <Typography className={classes.root}>myresume.pdf</Typography>
+      </p>
+      <p>
+        <Typography style={{ fontWeight: "bold", fontFamily: "Open Sans" }}>
+          &copy; Ellis Chung 2022
+        </Typography>
       </p>
     </div>
   );
