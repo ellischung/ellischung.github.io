@@ -59,7 +59,9 @@ const Contact = () => {
         <GitHubIcon sx={{ mr: 2 }} />
         <Typography
           className={classes.root}
-          onClick={() => window.open("https://github.com/ellischung", "_blank")}
+          href="https://github.com/ellischung"
+          target="_blank"
+          component="a"
         >
           https://github.com/ellischung
         </Typography>
@@ -73,7 +75,14 @@ const Contact = () => {
         }}
       >
         <FeedIcon sx={{ mr: 2 }} />
-        <Typography className={classes.root}>myresume.pdf</Typography>
+        <Typography
+          className={classes.root}
+          href={`${process.env.PUBLIC_URL}/ellis-chung-cv.pdf`}
+          target="_blank"
+          component="a"
+        >
+          ellis-chung-cv.pdf
+        </Typography>
       </p>
       <p>
         <Typography style={{ fontWeight: "bold", fontFamily: "Open Sans" }}>
