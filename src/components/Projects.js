@@ -11,9 +11,10 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 500,
     background: "#D8D8D8",
+    borderRadius: "20px",
     transition: "transform 0.15s ease-in-out",
     "&:hover": {
-      transform: "scale3d(1.05, 1.05, 1)",
+      transform: "scale3d(1.1, 1.1, 1)",
       boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.33)",
     },
   },
@@ -43,7 +44,7 @@ const Projects = () => {
       </p>
       <Grid
         container
-        rowSpacing={5}
+        rowSpacing={7}
         columnSpacing={{ md: 7 }}
         style={{ marginBottom: "100px", width: "80%" }}
       >
