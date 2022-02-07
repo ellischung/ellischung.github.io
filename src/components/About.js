@@ -12,7 +12,6 @@ const useStyles = makeStyles({
     maxWidth: "69%",
     maxHeight: 300,
     borderRadius: "20px",
-    background: "#D8D8D8",
     marginBottom: "100px",
   },
 
