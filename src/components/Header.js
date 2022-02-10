@@ -108,10 +108,9 @@ class Header extends React.Component {
           }}
         >
           Hello! I'm a Full Stack Web Developer based in NY who is open to any
-          tech opportunities as well as learning new tech! I have created a
-          number of projects using the MERN stack and other technologies. I'm
-          also a graduate of Stony Brook University with a B.S. in Computer
-          Science.
+          tech opportunities as well as learning about new tech. Check out some
+          of the projects that I've developed using the MERN stack and other
+          technologies below!
         </p>
         <p
           style={{
@@ -153,7 +152,7 @@ class Header extends React.Component {
                   color="text.secondary"
                   style={{ fontFamily: "Open Sans" }}
                 >
-                  Using ES6 for projects
+                  Proficient with ES6
                 </Typography>
               </CardContent>
             </Card>
