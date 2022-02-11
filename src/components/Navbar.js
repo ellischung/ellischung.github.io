@@ -6,12 +6,10 @@ import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 
-const pages = ["About", "Projects", "Contact"];
-
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <AppBar
-      position="static"
+      position="fixed"
       style={{ background: "transparent", boxShadow: "none" }}
     >
       <Container maxWidth="xl">
@@ -27,25 +25,50 @@ const Navbar = () => {
               fontFamily: "Roboto Mono",
               textTransform: "none",
             }}
+            onClick={props.home}
           >
             Home
           </Button>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                sx={{
-                  my: 2,
-                  color: "black",
-                  display: "block",
-                  fontWeight: "bold",
-                  fontFamily: "Roboto Mono",
-                  textTransform: "none",
-                }}
-              >
-                {page}
-              </Button>
-            ))}
+            <Button
+              sx={{
+                my: 2,
+                color: "black",
+                display: "block",
+                fontWeight: "bold",
+                fontFamily: "Roboto Mono",
+                textTransform: "none",
+              }}
+              onClick={props.about}
+            >
+              About
+            </Button>
+            <Button
+              sx={{
+                my: 2,
+                color: "black",
+                display: "block",
+                fontWeight: "bold",
+                fontFamily: "Roboto Mono",
+                textTransform: "none",
+              }}
+              onClick={props.projects}
+            >
+              Projects
+            </Button>
+            <Button
+              sx={{
+                my: 2,
+                color: "black",
+                display: "block",
+                fontWeight: "bold",
+                fontFamily: "Roboto Mono",
+                textTransform: "none",
+              }}
+              onClick={props.contact}
+            >
+              Contact
+            </Button>
           </Box>
           <GitHubIcon sx={{ mr: 2, color: "black", fontSize: "30px" }} />
           <EmailIcon sx={{ color: "black", fontSize: "30px" }} />
