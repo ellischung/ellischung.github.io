@@ -77,7 +77,7 @@ const Contact = () => {
         <FeedIcon sx={{ mr: 2 }} />
         <Typography
           className={classes.root}
-          href={`${process.env.PUBLIC_URL}/ellis-chung-cv.pdf`}
+          href={require("../media/ellis-chung-cv.pdf")}
           target="_blank"
           component="a"
         >

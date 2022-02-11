@@ -51,8 +51,8 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card className={classes.root}>
             <img
-              alt="node"
-              src={`${process.env.PUBLIC_URL}/mixtapepluslogo.png`}
+              alt="mixtapeplus"
+              src={require("../media/mixtapepluslogo.png")}
               style={{ width: 300, height: 200 }}
             />
             <CardContent sx={{ background: "white" }}>
@@ -91,8 +91,8 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card className={classes.root}>
             <img
-              alt="node"
-              src={`${process.env.PUBLIC_URL}/guesstheanime.gif`}
+              alt="guesstheanime"
+              src={require("../media/guesstheanime.gif")}
               style={{ width: 200, height: 200 }}
             />
             <CardContent sx={{ background: "white" }}>
@@ -142,8 +142,8 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card className={classes.root}>
             <img
-              alt="node"
-              src={`${process.env.PUBLIC_URL}/puppeteerlogo.png`}
+              alt="mkt-scraper"
+              src={require("../media/puppeteerlogo.png")}
               style={{ width: 200, height: 200 }}
             />
             <CardContent sx={{ background: "white" }}>
@@ -185,8 +185,8 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card className={classes.root}>
             <img
-              alt="node"
-              src={`${process.env.PUBLIC_URL}/recmeanime.png`}
+              alt="recmeanime"
+              src={require("../media/recmeanime.png")}
               style={{ width: 400, height: 200 }}
             />
             <CardContent sx={{ background: "white" }}>
@@ -240,8 +240,8 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card className={classes.root}>
             <img
-              alt="node"
-              src={`${process.env.PUBLIC_URL}/clogo.png`}
+              alt="c"
+              src={require("../media/clogo.png")}
               style={{ width: 250, height: 200 }}
             />
             <CardContent sx={{ background: "white" }}>
@@ -277,8 +277,8 @@ const Projects = () => {
         <Grid item xs={4}>
           <Card className={classes.root}>
             <img
-              alt="node"
-              src={`${process.env.PUBLIC_URL}/javalogo.png`}
+              alt="java"
+              src={require("../media/javalogo.png")}
               style={{ width: 200, height: 200 }}
             />
             <CardContent sx={{ background: "white" }}>

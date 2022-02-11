@@ -68,7 +68,7 @@ const About = () => {
           component="video"
           width="500"
           height="300"
-          src={`${process.env.PUBLIC_URL}/bboyclips.mp4`}
+          src={require("../media/bboyclips.mp4")}
           controls
         />
       </Card>

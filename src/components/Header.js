@@ -26,7 +26,7 @@ class Header extends React.Component {
       >
         <Avatar
           alt="profile"
-          src={`${process.env.PUBLIC_URL}/temp.jpg`}
+          src={require("../media/temp.jpg")}
           sx={{
             my: 4,
             width: 200,
@@ -137,7 +137,7 @@ class Header extends React.Component {
             >
               <img
                 alt="javascript"
-                src={`${process.env.PUBLIC_URL}/jslogo.png`}
+                src={require("../media/jslogo.png")}
                 style={{ width: 70, height: 70 }}
               />
               <CardContent>
@@ -197,7 +197,7 @@ class Header extends React.Component {
             >
               <img
                 alt="node"
-                src={`${process.env.PUBLIC_URL}/nodelogo.png`}
+                src={require("../media/nodelogo.png")}
                 style={{ width: 100, height: 70 }}
               />
               <CardContent>
@@ -227,7 +227,7 @@ class Header extends React.Component {
             >
               <img
                 alt="mongodb"
-                src={`${process.env.PUBLIC_URL}/mongodblogo.png`}
+                src={require("../media/mongodblogo.png")}
                 style={{ width: 210, height: 70 }}
               />
               <CardContent>
@@ -257,7 +257,7 @@ class Header extends React.Component {
             >
               <img
                 alt="scss"
-                src={`${process.env.PUBLIC_URL}/scsslogo.png`}
+                src={require("../media/scsslogo.png")}
                 style={{ width: 70, height: 70 }}
               />
               <CardContent>
@@ -287,7 +287,7 @@ class Header extends React.Component {
             >
               <img
                 alt="git"
-                src={`${process.env.PUBLIC_URL}/gitlogo.png`}
+                src={require("../media/gitlogo.png")}
                 style={{ width: 140, height: 70 }}
               />
               <CardContent>
