@@ -31,6 +31,7 @@ class Header extends React.Component {
             my: 4,
             width: 200,
             height: 200,
+            marginTop: "100px",
           }}
         />
         <Scramble
@@ -122,11 +123,7 @@ class Header extends React.Component {
         >
           Stack
         </p>
-        <Grid
-          container
-          rowSpacing={5}
-          style={{ marginBottom: "100px", width: "60%" }}
-        >
+        <Grid container rowSpacing={5} style={{ width: "60%" }}>
           <Grid item xs={4}>
             <Card
               sx={{

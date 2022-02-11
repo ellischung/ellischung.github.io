@@ -33,6 +33,7 @@ const Contact = () => {
     >
       <p
         style={{
+          marginTop: "100px",
           marginBottom: "40px",
           fontSize: "24px",
           fontWeight: "bold",

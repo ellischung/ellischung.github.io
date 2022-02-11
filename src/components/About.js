@@ -12,7 +12,6 @@ const useStyles = makeStyles({
     maxWidth: "69%",
     maxHeight: 300,
     borderRadius: "20px",
-    marginBottom: "100px",
     alignItems: "center",
   },
 
@@ -37,6 +36,7 @@ const About = () => {
     >
       <p
         style={{
+          marginTop: "100px",
           marginBottom: "40px",
           fontSize: "24px",
           fontWeight: "bold",

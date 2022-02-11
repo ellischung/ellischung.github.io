@@ -34,6 +34,7 @@ const Projects = () => {
     >
       <p
         style={{
+          marginTop: "100px",
           marginBottom: "40px",
           fontSize: "24px",
           fontWeight: "bold",
@@ -46,7 +47,7 @@ const Projects = () => {
         container
         rowSpacing={7}
         columnSpacing={{ md: 7 }}
-        style={{ marginBottom: "100px", width: "80%" }}
+        style={{ width: "80%" }}
       >
         <Grid item xs={4}>
           <Card className={classes.root}>
