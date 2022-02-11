@@ -29,8 +29,8 @@ class Header extends React.Component {
           src={`${process.env.PUBLIC_URL}/temp.jpg`}
           sx={{
             my: 4,
-            width: 150,
-            height: 150,
+            width: 200,
+            height: 200,
           }}
         />
         <Scramble
@@ -51,7 +51,7 @@ class Header extends React.Component {
           style={{
             marginBottom: "20px",
             color: "black",
-            fontSize: "32px",
+            fontSize: "36px",
             fontWeight: "bold",
             fontFamily: "Roboto Mono",
           }}
@@ -94,7 +94,7 @@ class Header extends React.Component {
           style={{
             marginBottom: "20px",
             color: "#828282",
-            fontSize: "20px",
+            fontSize: "24px",
             fontWeight: "bold",
             fontFamily: "Roboto Mono",
           }}
