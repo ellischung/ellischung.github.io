@@ -28,10 +28,10 @@ const Navbar = (props) => {
               textTransform: "none",
               display: "inline-block",
               position: "relative",
-              "&:hover": {
+              ":hover": {
                 background: "transparent",
               },
-              "&:after": {
+              ":after": {
                 content: '""',
                 position: "absolute",
                 width: "100%",
@@ -43,7 +43,7 @@ const Navbar = (props) => {
                 transformOrigin: "bottom right",
                 transition: "transform 0.25s ease-out",
               },
-              "&:hover:after": {
+              ":hover:after": {
                 transform: "scaleX(1)",
                 transformOrigin: "bottom left",
               },
@@ -66,10 +66,10 @@ const Navbar = (props) => {
                 textTransform: "none",
                 display: "inline-block",
                 position: "relative",
-                "&:hover": {
+                ":hover": {
                   background: "transparent",
                 },
-                "&:after": {
+                ":after": {
                   content: '""',
                   position: "absolute",
                   width: "100%",
@@ -81,7 +81,7 @@ const Navbar = (props) => {
                   transformOrigin: "bottom right",
                   transition: "transform 0.25s ease-out",
                 },
-                "&:hover:after": {
+                ":hover:after": {
                   transform: "scaleX(1)",
                   transformOrigin: "bottom left",
                 },
@@ -103,10 +103,10 @@ const Navbar = (props) => {
                 textTransform: "none",
                 display: "inline-block",
                 position: "relative",
-                "&:hover": {
+                ":hover": {
                   background: "transparent",
                 },
-                "&:after": {
+                ":after": {
                   content: '""',
                   position: "absolute",
                   width: "100%",
@@ -118,7 +118,7 @@ const Navbar = (props) => {
                   transformOrigin: "bottom right",
                   transition: "transform 0.25s ease-out",
                 },
-                "&:hover:after": {
+                ":hover:after": {
                   transform: "scaleX(1)",
                   transformOrigin: "bottom left",
                 },
@@ -140,10 +140,10 @@ const Navbar = (props) => {
                 textTransform: "none",
                 display: "inline-block",
                 position: "relative",
-                "&:hover": {
+                ":hover": {
                   background: "transparent",
                 },
-                "&:after": {
+                ":after": {
                   content: '""',
                   position: "absolute",
                   width: "100%",
@@ -155,7 +155,7 @@ const Navbar = (props) => {
                   transformOrigin: "bottom right",
                   transition: "transform 0.25s ease-out",
                 },
-                "&:hover:after": {
+                ":hover:after": {
                   transform: "scaleX(1)",
                   transformOrigin: "bottom left",
                 },
