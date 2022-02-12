@@ -5,34 +5,8 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
-import { makeStyles } from "@mui/styles";
-
-const useStyles = makeStyles({
-  button: {
-    display: "inline-block",
-    position: "relative",
-    "&:after": {
-      content: '""',
-      position: "absolute",
-      width: "100%",
-      transform: "scaleX(0)",
-      height: "1px",
-      bottom: 0,
-      left: 0,
-      backgroundColor: "black",
-      transformOrigin: "bottom right",
-      transition: "transform 0.25s ease-out",
-    },
-    "&:hover:after": {
-      transform: "scaleX(1)",
-      transformOrigin: "bottom left",
-    },
-  },
-});
 
 const Navbar = (props) => {
-  const classes = useStyles();
-
   return (
     <AppBar
       position="fixed"
@@ -43,7 +17,6 @@ const Navbar = (props) => {
           <Button
             disableRipple
             variant="h6"
-            className={classes.button}
             sx={{
               margin: 0,
               padding: 0,
@@ -53,8 +26,26 @@ const Navbar = (props) => {
               fontWeight: "bold",
               fontFamily: "Roboto Mono",
               textTransform: "none",
-              ":hover": {
+              display: "inline-block",
+              position: "relative",
+              "&:hover": {
                 background: "transparent",
+              },
+              "&:after": {
+                content: '""',
+                position: "absolute",
+                width: "100%",
+                transform: "scaleX(0)",
+                height: "1px",
+                bottom: 0,
+                left: 0,
+                backgroundColor: "black",
+                transformOrigin: "bottom right",
+                transition: "transform 0.25s ease-out",
+              },
+              "&:hover:after": {
+                transform: "scaleX(1)",
+                transformOrigin: "bottom left",
               },
             }}
             onClick={props.home}
@@ -64,7 +55,6 @@ const Navbar = (props) => {
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <Button
               disableRipple
-              className={classes.button}
               sx={{
                 margin: 0,
                 padding: 0,
@@ -74,8 +64,26 @@ const Navbar = (props) => {
                 fontWeight: "bold",
                 fontFamily: "Roboto Mono",
                 textTransform: "none",
-                ":hover": {
+                display: "inline-block",
+                position: "relative",
+                "&:hover": {
                   background: "transparent",
+                },
+                "&:after": {
+                  content: '""',
+                  position: "absolute",
+                  width: "100%",
+                  transform: "scaleX(0)",
+                  height: "1px",
+                  bottom: 0,
+                  left: 0,
+                  backgroundColor: "black",
+                  transformOrigin: "bottom right",
+                  transition: "transform 0.25s ease-out",
+                },
+                "&:hover:after": {
+                  transform: "scaleX(1)",
+                  transformOrigin: "bottom left",
                 },
               }}
               onClick={props.about}
@@ -84,7 +92,6 @@ const Navbar = (props) => {
             </Button>
             <Button
               disableRipple
-              className={classes.button}
               sx={{
                 margin: 0,
                 padding: 0,
@@ -94,8 +101,26 @@ const Navbar = (props) => {
                 fontWeight: "bold",
                 fontFamily: "Roboto Mono",
                 textTransform: "none",
-                ":hover": {
+                display: "inline-block",
+                position: "relative",
+                "&:hover": {
                   background: "transparent",
+                },
+                "&:after": {
+                  content: '""',
+                  position: "absolute",
+                  width: "100%",
+                  transform: "scaleX(0)",
+                  height: "1px",
+                  bottom: 0,
+                  left: 0,
+                  backgroundColor: "black",
+                  transformOrigin: "bottom right",
+                  transition: "transform 0.25s ease-out",
+                },
+                "&:hover:after": {
+                  transform: "scaleX(1)",
+                  transformOrigin: "bottom left",
                 },
               }}
               onClick={props.projects}
@@ -104,7 +129,6 @@ const Navbar = (props) => {
             </Button>
             <Button
               disableRipple
-              className={classes.button}
               sx={{
                 margin: 0,
                 padding: 0,
@@ -114,8 +138,26 @@ const Navbar = (props) => {
                 fontWeight: "bold",
                 fontFamily: "Roboto Mono",
                 textTransform: "none",
-                ":hover": {
+                display: "inline-block",
+                position: "relative",
+                "&:hover": {
                   background: "transparent",
+                },
+                "&:after": {
+                  content: '""',
+                  position: "absolute",
+                  width: "100%",
+                  transform: "scaleX(0)",
+                  height: "1px",
+                  bottom: 0,
+                  left: 0,
+                  backgroundColor: "black",
+                  transformOrigin: "bottom right",
+                  transition: "transform 0.25s ease-out",
+                },
+                "&:hover:after": {
+                  transform: "scaleX(1)",
+                  transformOrigin: "bottom left",
                 },
               }}
               onClick={props.contact}
