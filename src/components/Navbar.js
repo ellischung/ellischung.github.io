@@ -190,8 +190,27 @@ const Navbar = (props) => {
               Contact
             </Button>
           </Box>
-          <GitHubIcon sx={{ mr: 2, color: "black", fontSize: "30px" }} />
-          <EmailIcon sx={{ color: "black", fontSize: "30px" }} />
+          <GitHubIcon
+            sx={{
+              mr: 2,
+              color: "black",
+              fontSize: "30px",
+              cursor: "pointer",
+              "&:hover": { color: "white" },
+            }}
+            onClick={() =>
+              window.open("https://github.com/ellischung", "_blank")
+            }
+          />
+          <EmailIcon
+            sx={{
+              color: "black",
+              fontSize: "30px",
+              cursor: "pointer",
+              "&:hover": { color: "white" },
+            }}
+            onClick={() => (window.location = "mailto:ellischung98@gmail.com")}
+          />
         </Toolbar>
       </Container>
     </AppBar>
