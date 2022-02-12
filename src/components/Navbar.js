@@ -1,3 +1,4 @@
+import { useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -7,10 +8,34 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 
 const Navbar = (props) => {
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 64) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
+
   return (
     <AppBar
       position="fixed"
-      style={{ background: "transparent", boxShadow: "none" }}
+      style={
+        navbar
+          ? {
+              backgroundColor: "#999999",
+              boxShadow: "none",
+              transition: "background-color 200ms linear",
+            }
+          : {
+              backgroundColor: "transparent",
+              boxShadow: "none",
+              transition: "background-color 200ms linear",
+            }
+      }
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
