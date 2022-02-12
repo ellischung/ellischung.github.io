@@ -15,15 +15,36 @@ const Navbar = (props) => {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Button
+            disableRipple
             variant="h6"
             sx={{
-              mr: 4,
-              display: { xs: "none", md: "flex" },
+              mr: 6,
+              display: "inline-block",
               color: "black",
               fontSize: "18px",
               fontWeight: "bold",
               fontFamily: "Roboto Mono",
               textTransform: "none",
+              position: "relative",
+              ":hover": {
+                background: "transparent",
+              },
+              ":after": {
+                content: '""',
+                position: "absolute",
+                width: "100%",
+                transform: "scaleX(0)",
+                height: "1px",
+                bottom: 0,
+                left: 0,
+                backgroundColor: "black",
+                transformOrigin: "bottom right",
+                transition: "transform 0.25s ease-out",
+              },
+              ":hover:after": {
+                transform: "scaleX(1)",
+                transformOrigin: "bottom left",
+              },
             }}
             onClick={props.home}
           >
@@ -31,39 +52,105 @@ const Navbar = (props) => {
           </Button>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <Button
+              disableRipple
               sx={{
+                mr: 2,
                 my: 2,
+                display: "inline-block",
                 color: "black",
-                display: "block",
                 fontWeight: "bold",
                 fontFamily: "Roboto Mono",
                 textTransform: "none",
+                position: "relative",
+                ":hover": {
+                  background: "transparent",
+                },
+                ":after": {
+                  content: '""',
+                  position: "absolute",
+                  width: "100%",
+                  transform: "scaleX(0)",
+                  height: "1px",
+                  bottom: 0,
+                  left: 0,
+                  backgroundColor: "black",
+                  transformOrigin: "bottom right",
+                  transition: "transform 0.25s ease-out",
+                },
+                ":hover:after": {
+                  transform: "scaleX(1)",
+                  transformOrigin: "bottom left",
+                },
               }}
               onClick={props.about}
             >
               About
             </Button>
             <Button
+              disableRipple
               sx={{
+                mr: 2,
                 my: 2,
+                display: "inline-block",
                 color: "black",
-                display: "block",
                 fontWeight: "bold",
                 fontFamily: "Roboto Mono",
                 textTransform: "none",
+                position: "relative",
+                ":hover": {
+                  background: "transparent",
+                },
+                ":after": {
+                  content: '""',
+                  position: "absolute",
+                  width: "100%",
+                  transform: "scaleX(0)",
+                  height: "1px",
+                  bottom: 0,
+                  left: 0,
+                  backgroundColor: "black",
+                  transformOrigin: "bottom right",
+                  transition: "transform 0.25s ease-out",
+                },
+                ":hover:after": {
+                  transform: "scaleX(1)",
+                  transformOrigin: "bottom left",
+                },
               }}
               onClick={props.projects}
             >
               Projects
             </Button>
             <Button
+              disableRipple
               sx={{
+                mr: 2,
                 my: 2,
+                display: "inline-block",
                 color: "black",
-                display: "block",
                 fontWeight: "bold",
                 fontFamily: "Roboto Mono",
                 textTransform: "none",
+                position: "relative",
+                ":hover": {
+                  background: "transparent",
+                },
+                ":after": {
+                  content: '""',
+                  position: "absolute",
+                  width: "100%",
+                  transform: "scaleX(0)",
+                  height: "1px",
+                  bottom: 0,
+                  left: 0,
+                  backgroundColor: "black",
+                  transformOrigin: "bottom right",
+                  transition: "transform 0.25s ease-out",
+                },
+                ":hover:after": {
+                  transform: "scaleX(1)",
+                  transformOrigin: "bottom left",
+                },
               }}
               onClick={props.contact}
             >
