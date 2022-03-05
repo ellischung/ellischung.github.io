@@ -54,14 +54,14 @@ const About = () => {
             experience working with front end, back end, and full stack web
             development with React, Node, Express, MongoDB, and other
             technologies. I'm also interested in diving deeper into other topics
-            in computer science because everytime I feel like I've grasped a
-            certain topic, I realize that I'm only scratching the surface. This
-            boundless and ever-evolving nature is one of the reasons why I love
-            this field. New technologies are constantly being developed, making
-            others deprecated, which is why I want to be as knowledgable as I
-            can be when it comes to learning tech. Outside of programming, I
-            indulge in my other passions such as b-boying (clips on the right),
-            anime, building PCs, and learning about new PC hardware.
+            in Computer Science because everytime I've come to grasp a certain
+            topic, I realize that I'm only scratching the surface. There is so
+            much to learn within this field and new technologies are constantly
+            being developed, making others deprecated, which is why I want to be
+            as knowledgable as I can be when it comes to learning tech. Outside
+            of programming, I indulge in my other passions such as b-boying
+            (clips on the right), anime, building PCs, and learning about new PC
+            hardware.
           </Typography>
         </CardContent>
         <CardMedia

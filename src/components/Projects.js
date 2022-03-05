@@ -70,10 +70,10 @@ const Projects = () => {
               >
                 A full stack web application that allows users to listen and
                 share music with friends. Users are also able to view intriguing
-                statistics based on their music tastes and can update their
+                statistics based on their music tastes and can customize their
                 profiles with the simple UI layout that is built with Ant
-                Design. This app makes use of the Spotify Web API and is
-                designed using the MERN stack.
+                Design. This app uses the Spotify Web API to play music and uses
+                Axios to pull data from a REST API.
               </Typography>
             </CardContent>
             <CardActions sx={{ background: "white", justifyContent: "center" }}>
@@ -152,19 +152,19 @@ const Projects = () => {
                 gutterBottom
                 style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
               >
-                mkt-scraper
+                Mkt Scraper
               </Typography>
               <Typography
                 variant="body2"
                 color="text.secondary"
                 style={{ fontFamily: "Open Sans" }}
               >
-                A web automation application that allows users to enter in any
-                search query and get notified by email when any new listings
-                show up in Craigslist for that search. Uses Puppeteer.js and
-                Node.js to scrape for listings in Craigslist. Future
-                implementations include making this work with Facebook
-                Marketplace and OfferUp.
+                A web automation application that notifies users by email
+                whenever new listings appear for a specified search query and
+                price constraint. Utilizes Puppeteer.js to scrape listing data
+                from Craigslist. Users can schedule desired intervals for the
+                script to run via CronJob. Future implementations include making
+                this work with Facebook Marketplace and OfferUp.
               </Typography>
             </CardContent>
             <CardActions sx={{ background: "white", justifyContent: "center" }}>
