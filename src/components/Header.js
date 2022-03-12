@@ -26,7 +26,7 @@ class Header extends React.Component {
       >
         <Avatar
           alt="profile"
-          src={require("../media/temp.jpg")}
+          src={require("../media/avatar.jpg")}
           sx={{
             my: 4,
             width: 200,

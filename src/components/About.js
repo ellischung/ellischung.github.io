@@ -57,7 +57,7 @@ const About = () => {
             in Computer Science because everytime I've come to grasp a certain
             topic, I realize that I'm only scratching the surface. There is so
             much to learn within this field and new technologies are constantly
-            being developed, making others deprecated, which is why I want to be
+            being developed, making others deprecated. That's why I want to be
             as knowledgable as I can be when it comes to learning tech. Outside
             of programming, I indulge in my other passions such as b-boying
             (clips on the right), anime, building PCs, and learning about new PC

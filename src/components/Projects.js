@@ -68,12 +68,12 @@ const Projects = () => {
                 color="text.secondary"
                 style={{ fontFamily: "Open Sans" }}
               >
-                A full stack web application that allows users to listen and
-                share music with friends. Users are also able to view intriguing
-                statistics based on their music tastes and can customize their
-                profiles with the simple UI layout that is built with Ant
-                Design. This app uses the Spotify Web API to play music and uses
-                Axios to pull data from a REST API.
+                A full stack web application for visualizing personalized
+                Spotify data. Users can view statistics such as accumulated
+                minutes listened, genre/artist distribution, and more. Users can
+                also customize their profiles and create new playlists based on
+                their music preferences. This app uses the Spotify Web API to
+                play music and uses Axios to pull data from a REST API.
               </Typography>
             </CardContent>
             <CardActions sx={{ background: "white", justifyContent: "center" }}>
