@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e04bd522.css",
-    "main.js": "/static/js/main.505e4ae6.js",
+    "main.js": "/static/js/main.3db69465.js",
     "static/media/bboyclips.mp4": "/static/media/bboyclips.c3e55fbe8cb80bc04589.mp4",
     "static/media/avatar.jpg": "/static/media/avatar.d9430d8e0f3c15ff78a8.jpg",
     "static/media/guesstheanime.gif": "/static/media/guesstheanime.1d6179c6e4b77cb31a35.gif",
@@ -11,16 +11,16 @@
     "static/media/recmeanime.png": "/static/media/recmeanime.7c4642ff7452fa4d3c68.png",
     "static/media/ellis-chung-cv.pdf": "/static/media/ellis-chung-cv.abb55021ef74df06aaef.pdf",
     "static/media/nodelogo.png": "/static/media/nodelogo.c2e22c634a7336cbe298.png",
-    "static/media/gitlogo.png": "/static/media/gitlogo.c2f5c09e9ee42220a99c.png",
+    "static/media/mongodblogo.png": "/static/media/mongodblogo.dd7b7e2e32adfd26d3ed.png",
     "static/media/clogo.png": "/static/media/clogo.5acc0684cef4bccc29ab.png",
     "static/media/puppeteerlogo.png": "/static/media/puppeteerlogo.55c1cdec4fe6eebcec0b.png",
     "static/media/jslogo.png": "/static/media/jslogo.db393457bf6303d846d6.png",
     "index.html": "/index.html",
     "main.e04bd522.css.map": "/static/css/main.e04bd522.css.map",
-    "main.505e4ae6.js.map": "/static/js/main.505e4ae6.js.map"
+    "main.3db69465.js.map": "/static/js/main.3db69465.js.map"
   },
   "entrypoints": [
     "static/css/main.e04bd522.css",
-    "static/js/main.505e4ae6.js"
+    "static/js/main.3db69465.js"
   ]
 }
