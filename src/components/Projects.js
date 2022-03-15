@@ -30,6 +30,8 @@ const Projects = () => {
         flexDirection: "column",
         alignItems: "center",
         textAlign: "center",
+        paddingLeft: "20px",
+        paddingRight: "20px",
       }}
     >
       <p

@@ -29,7 +29,7 @@ const About = () => {
       </p>
       <Card
         style={{
-          maxWidth: 1250,
+          maxWidth: 1200,
           borderRadius: "20px",
           boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.33)",
         }}
@@ -38,7 +38,7 @@ const About = () => {
           <Grid item>
             <Typography
               style={{
-                maxWidth: 700,
+                maxWidth: 600,
                 padding: "20px",
                 color: "#727272",
                 fontFamily: "Open Sans",
@@ -48,7 +48,7 @@ const About = () => {
               University with a B.S. in Computer Science. I am currently looking
               for job opportunities relating to software development. I have
               experience working with front end, back end, and full stack web
-              development with React, Node, Express, MongoDB, and other
+              applications using React, Node, Express, MongoDB, and other
               technologies. I'm also interested in diving deeper into other
               topics in Computer Science because everytime I've come to grasp a
               certain topic, I realize that I'm only scratching the surface.
@@ -63,7 +63,7 @@ const About = () => {
           <Grid item>
             <CardMedia
               component="video"
-              style={{ maxWidth: 500 }}
+              style={{ maxWidth: 550 }}
               src={require("../media/bboyclips.mp4")}
               controls
             />

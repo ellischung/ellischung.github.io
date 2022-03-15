@@ -44,7 +44,7 @@ const Navbar = (props) => {
             sx={{
               margin: 0,
               padding: 0,
-              mr: 5,
+              mr: 4,
               color: "black",
               fontSize: "18px",
               fontWeight: "bold",
