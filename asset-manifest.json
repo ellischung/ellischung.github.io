@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e04bd522.css",
-    "main.js": "/static/js/main.3db69465.js",
+    "main.js": "/static/js/main.e5765527.js",
     "static/media/bboyclips.mp4": "/static/media/bboyclips.c3e55fbe8cb80bc04589.mp4",
     "static/media/avatar.jpg": "/static/media/avatar.d9430d8e0f3c15ff78a8.jpg",
     "static/media/guesstheanime.gif": "/static/media/guesstheanime.1d6179c6e4b77cb31a35.gif",
@@ -17,10 +17,10 @@
     "static/media/jslogo.png": "/static/media/jslogo.db393457bf6303d846d6.png",
     "index.html": "/index.html",
     "main.e04bd522.css.map": "/static/css/main.e04bd522.css.map",
-    "main.3db69465.js.map": "/static/js/main.3db69465.js.map"
+    "main.e5765527.js.map": "/static/js/main.e5765527.js.map"
   },
   "entrypoints": [
     "static/css/main.e04bd522.css",
-    "static/js/main.3db69465.js"
+    "static/js/main.e5765527.js"
   ]
 }
