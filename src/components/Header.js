@@ -102,10 +102,12 @@ class Header extends React.Component {
         />
         <p
           style={{
+            maxWidth: "600px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
             marginBottom: "100px",
             color: "#727272",
             fontFamily: "Open Sans",
-            width: "600px",
           }}
         >
           Hello! I'm a Full Stack Web Developer based in NY who is open to any
@@ -123,11 +125,21 @@ class Header extends React.Component {
         >
           Stack
         </p>
-        <Grid container rowSpacing={5} style={{ width: "60%" }}>
-          <Grid item xs={4}>
+        <Grid
+          container
+          spacing={5}
+          alignItems="center"
+          justifyContent="center"
+          style={{
+            maxWidth: "950px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+        >
+          <Grid item>
             <Card
               sx={{
-                maxWidth: 500,
+                maxWidth: "250px",
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -149,15 +161,15 @@ class Header extends React.Component {
                   color="text.secondary"
                   style={{ fontFamily: "Open Sans" }}
                 >
-                  Proficient with ES6
+                  Proficient with ES6, object-oriented programming
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item>
             <Card
               sx={{
-                maxWidth: 500,
+                maxWidth: "250px",
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -184,10 +196,10 @@ class Header extends React.Component {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item>
             <Card
               sx={{
-                maxWidth: 500,
+                maxWidth: "250px",
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -214,10 +226,10 @@ class Header extends React.Component {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item>
             <Card
               sx={{
-                maxWidth: 500,
+                maxWidth: "250px",
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -239,15 +251,15 @@ class Header extends React.Component {
                   color="text.secondary"
                   style={{ fontFamily: "Open Sans" }}
                 >
-                  Using to store user data
+                  NoSQL database solution used for storing user data
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item>
             <Card
               sx={{
-                maxWidth: 500,
+                maxWidth: "250px",
                 background: "transparent",
                 boxShadow: "none",
               }}
@@ -269,15 +281,15 @@ class Header extends React.Component {
                   color="text.secondary"
                   style={{ fontFamily: "Open Sans" }}
                 >
-                  Projects designed and styled using SCSS
+                  Projects designed and styled with SCSS
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item>
             <Card
               sx={{
-                maxWidth: 500,
+                maxWidth: "250px",
                 background: "transparent",
                 boxShadow: "none",
               }}
