@@ -9,7 +9,7 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 500,
+    maxWidth: 450,
     background: "#D8D8D8",
     borderRadius: "20px",
     transition: "transform 0.15s ease-in-out",
@@ -45,11 +45,16 @@ const Projects = () => {
       </p>
       <Grid
         container
-        rowSpacing={7}
-        columnSpacing={{ md: 7 }}
-        style={{ width: "80%" }}
+        spacing={7}
+        alignItems="center"
+        justifyContent="center"
+        style={{
+          maxWidth: 1600,
+          paddingLeft: "20px",
+          paddingRight: "20px",
+        }}
       >
-        <Grid item xs={4}>
+        <Grid item>
           <Card className={classes.root}>
             <img
               alt="mixtapeplus"
@@ -89,7 +94,7 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item>
           <Card className={classes.root}>
             <img
               alt="guesstheanime"
@@ -140,7 +145,7 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item>
           <Card className={classes.root}>
             <img
               alt="mkt-scraper"
@@ -183,7 +188,7 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item>
           <Card className={classes.root}>
             <img
               alt="recmeanime"
@@ -238,7 +243,7 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item>
           <Card className={classes.root}>
             <img
               alt="c"
@@ -275,7 +280,7 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item>
           <Card className={classes.root}>
             <img
               alt="java"
