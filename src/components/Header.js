@@ -131,19 +131,13 @@ class Header extends React.Component {
           alignItems="center"
           justifyContent="center"
           style={{
-            maxWidth: "950px",
+            maxWidth: "900px",
             paddingLeft: "20px",
             paddingRight: "20px",
           }}
         >
-          <Grid item>
-            <Card
-              sx={{
-                maxWidth: "250px",
-                background: "transparent",
-                boxShadow: "none",
-              }}
-            >
+          <Grid item xs={4} align="center">
+            <Card sx={{ background: "transparent", boxShadow: "none" }}>
               <img
                 alt="javascript"
                 src={require("../media/jslogo.png")}
@@ -159,21 +153,15 @@ class Header extends React.Component {
                 <Typography
                   variant="body2"
                   color="text.secondary"
-                  style={{ fontFamily: "Open Sans" }}
+                  style={{ fontFamily: "Open Sans", fontSize: "1.5vh" }}
                 >
                   Proficient with ES6, object-oriented programming
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item>
-            <Card
-              sx={{
-                maxWidth: "250px",
-                background: "transparent",
-                boxShadow: "none",
-              }}
-            >
+          <Grid item xs={4} align="center">
+            <Card sx={{ background: "transparent", boxShadow: "none" }}>
               <img
                 alt="react"
                 src={`${process.env.PUBLIC_URL}/logo192.png`}
@@ -189,21 +177,15 @@ class Header extends React.Component {
                 <Typography
                   variant="body2"
                   color="text.secondary"
-                  style={{ fontFamily: "Open Sans" }}
+                  style={{ fontFamily: "Open Sans", fontSize: "1.5vh" }}
                 >
                   Functional/Class Components, JSX, Hooks
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item>
-            <Card
-              sx={{
-                maxWidth: "250px",
-                background: "transparent",
-                boxShadow: "none",
-              }}
-            >
+          <Grid item xs={4} align="center">
+            <Card sx={{ background: "transparent", boxShadow: "none" }}>
               <img
                 alt="node"
                 src={require("../media/nodelogo.png")}
@@ -219,25 +201,19 @@ class Header extends React.Component {
                 <Typography
                   variant="body2"
                   color="text.secondary"
-                  style={{ fontFamily: "Open Sans" }}
+                  style={{ fontFamily: "Open Sans", fontSize: "1.5vh" }}
                 >
                   Using Express.js for web applications
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item>
-            <Card
-              sx={{
-                maxWidth: "250px",
-                background: "transparent",
-                boxShadow: "none",
-              }}
-            >
+          <Grid item xs={4} align="center">
+            <Card sx={{ background: "transparent", boxShadow: "none" }}>
               <img
                 alt="mongodb"
                 src={require("../media/mongodblogo.png")}
-                style={{ width: 210, height: 70 }}
+                style={{ width: 100, height: 70 }}
               />
               <CardContent>
                 <Typography
@@ -249,21 +225,15 @@ class Header extends React.Component {
                 <Typography
                   variant="body2"
                   color="text.secondary"
-                  style={{ fontFamily: "Open Sans" }}
+                  style={{ fontFamily: "Open Sans", fontSize: "1.5vh" }}
                 >
                   NoSQL database solution used for storing user data
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item>
-            <Card
-              sx={{
-                maxWidth: "250px",
-                background: "transparent",
-                boxShadow: "none",
-              }}
-            >
+          <Grid item xs={4} align="center">
+            <Card sx={{ background: "transparent", boxShadow: "none" }}>
               <img
                 alt="scss"
                 src={require("../media/scsslogo.png")}
@@ -279,25 +249,19 @@ class Header extends React.Component {
                 <Typography
                   variant="body2"
                   color="text.secondary"
-                  style={{ fontFamily: "Open Sans" }}
+                  style={{ fontFamily: "Open Sans", fontSize: "1.5vh" }}
                 >
                   Projects designed and styled with SCSS
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid item>
-            <Card
-              sx={{
-                maxWidth: "250px",
-                background: "transparent",
-                boxShadow: "none",
-              }}
-            >
+          <Grid item xs={4} align="center">
+            <Card sx={{ background: "transparent", boxShadow: "none" }}>
               <img
                 alt="git"
                 src={require("../media/gitlogo.png")}
-                style={{ width: 140, height: 70 }}
+                style={{ width: 70, height: 70 }}
               />
               <CardContent>
                 <Typography
@@ -309,7 +273,7 @@ class Header extends React.Component {
                 <Typography
                   variant="body2"
                   color="text.secondary"
-                  style={{ fontFamily: "Open Sans" }}
+                  style={{ fontFamily: "Open Sans", fontSize: "1.5vh" }}
                 >
                   Git repositories, Pull requests, etc.
                 </Typography>
