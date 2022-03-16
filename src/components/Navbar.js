@@ -44,7 +44,7 @@ const Navbar = (props) => {
             sx={{
               margin: 0,
               padding: 0,
-              mr: 4,
+              mr: 6,
               color: "black",
               fontSize: "18px",
               fontWeight: "bold",
@@ -187,7 +187,10 @@ const Navbar = (props) => {
           >
             Contact
           </Button>
-          <div style={{ marginLeft: "auto", paddingTop: "3px" }}>
+          <div
+            className="icons"
+            style={{ marginLeft: "auto", paddingTop: "3px" }}
+          >
             <GitHubIcon
               sx={{
                 mr: 2,

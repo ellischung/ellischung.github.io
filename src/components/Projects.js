@@ -195,7 +195,7 @@ const Projects = () => {
             <img
               alt="recmeanime"
               src={require("../media/recmeanime.png")}
-              style={{ width: 400, height: 200 }}
+              style={{ width: 300, height: 200 }}
             />
             <CardContent sx={{ background: "white" }}>
               <Typography

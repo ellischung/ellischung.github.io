@@ -11,3 +11,9 @@
 video::-webkit-media-controls-fullscreen-button {
   display: none;
 }
+
+@media only screen and (max-width: 1026px) {
+  .icons {
+    display: none;
+  }
+}
