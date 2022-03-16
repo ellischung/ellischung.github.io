@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.e04bd522.css",
-    "main.js": "/static/js/main.e5765527.js",
+    "main.css": "/static/css/main.202b9b77.css",
+    "main.js": "/static/js/main.6ea4fd96.js",
     "static/media/bboyclips.mp4": "/static/media/bboyclips.c3e55fbe8cb80bc04589.mp4",
-    "static/media/avatar.jpg": "/static/media/avatar.d9430d8e0f3c15ff78a8.jpg",
+    "static/media/avatar.jpg": "/static/media/avatar.ca002d002a8dfeafa659.jpg",
     "static/media/guesstheanime.gif": "/static/media/guesstheanime.1d6179c6e4b77cb31a35.gif",
     "static/media/mixtapepluslogo.png": "/static/media/mixtapepluslogo.9975ec7d8f161d5f882b.png",
     "static/media/javalogo.png": "/static/media/javalogo.fdabd4e11f1235e4e8e0.png",
@@ -16,11 +16,11 @@
     "static/media/puppeteerlogo.png": "/static/media/puppeteerlogo.55c1cdec4fe6eebcec0b.png",
     "static/media/jslogo.png": "/static/media/jslogo.db393457bf6303d846d6.png",
     "index.html": "/index.html",
-    "main.e04bd522.css.map": "/static/css/main.e04bd522.css.map",
-    "main.e5765527.js.map": "/static/js/main.e5765527.js.map"
+    "main.202b9b77.css.map": "/static/css/main.202b9b77.css.map",
+    "main.6ea4fd96.js.map": "/static/js/main.6ea4fd96.js.map"
   },
   "entrypoints": [
-    "static/css/main.e04bd522.css",
-    "static/js/main.e5765527.js"
+    "static/css/main.202b9b77.css",
+    "static/js/main.6ea4fd96.js"
   ]
 }
