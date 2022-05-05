@@ -3,23 +3,29 @@ import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 const About = () => {
+  const mobile = useMediaQuery("(max-width:1024px)");
+
   return (
     <div
       style={{
+        //height: "100vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        textAlign: "center",
+        background: "#515151",
         paddingLeft: "20px",
         paddingRight: "20px",
       }}
     >
       <p
         style={{
+          marginLeft: mobile ? "0" : "-70%",
           marginTop: "100px",
-          marginBottom: "40px",
+          marginBottom: "50px",
+          color: "white",
           fontSize: "24px",
           fontWeight: "bold",
           fontFamily: "Roboto Mono",

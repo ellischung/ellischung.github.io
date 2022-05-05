@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Mono:wght@100&display=swap");
 
 .App {
-  text-align: center;
   max-width: 100%;
-  background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
   overflow-y: auto;
 }
 

@@ -10,7 +10,7 @@ const Navbar = (props) => {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 64) {
+    if (window.scrollY >= 364) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -25,7 +25,7 @@ const Navbar = (props) => {
       style={
         navbar
           ? {
-              backgroundColor: "#999999",
+              backgroundColor: "black",
               boxShadow: "none",
               transition: "background-color 200ms linear",
             }
@@ -45,7 +45,7 @@ const Navbar = (props) => {
               margin: 0,
               padding: 0,
               mr: 6,
-              color: "black",
+              color: "white",
               fontSize: "18px",
               fontWeight: "bold",
               fontFamily: "Roboto Mono",
@@ -63,7 +63,7 @@ const Navbar = (props) => {
                 height: "1px",
                 bottom: 0,
                 left: 0,
-                backgroundColor: "black",
+                backgroundColor: "white",
                 transformOrigin: "bottom right",
                 transition: "transform 0.25s ease-out",
               },
@@ -83,7 +83,7 @@ const Navbar = (props) => {
               padding: 0,
               mr: 2,
               my: 2,
-              color: "black",
+              color: "white",
               fontWeight: "bold",
               fontFamily: "Roboto Mono",
               textTransform: "none",
@@ -100,7 +100,7 @@ const Navbar = (props) => {
                 height: "1px",
                 bottom: 0,
                 left: 0,
-                backgroundColor: "black",
+                backgroundColor: "white",
                 transformOrigin: "bottom right",
                 transition: "transform 0.25s ease-out",
               },
@@ -120,7 +120,7 @@ const Navbar = (props) => {
               padding: 0,
               mr: 2,
               my: 2,
-              color: "black",
+              color: "white",
               fontWeight: "bold",
               fontFamily: "Roboto Mono",
               textTransform: "none",
@@ -137,7 +137,7 @@ const Navbar = (props) => {
                 height: "1px",
                 bottom: 0,
                 left: 0,
-                backgroundColor: "black",
+                backgroundColor: "white",
                 transformOrigin: "bottom right",
                 transition: "transform 0.25s ease-out",
               },
@@ -157,7 +157,7 @@ const Navbar = (props) => {
               padding: 0,
               mr: 2,
               my: 2,
-              color: "black",
+              color: "white",
               fontWeight: "bold",
               fontFamily: "Roboto Mono",
               textTransform: "none",
@@ -174,7 +174,7 @@ const Navbar = (props) => {
                 height: "1px",
                 bottom: 0,
                 left: 0,
-                backgroundColor: "black",
+                backgroundColor: "white",
                 transformOrigin: "bottom right",
                 transition: "transform 0.25s ease-out",
               },
@@ -194,10 +194,10 @@ const Navbar = (props) => {
             <GitHubIcon
               sx={{
                 mr: 2,
-                color: "black",
+                color: "white",
                 fontSize: "30px",
                 cursor: "pointer",
-                "&:hover": { color: "white" },
+                "&:hover": { color: "#7a7a7a" },
               }}
               onClick={() =>
                 window.open("https://github.com/ellischung", "_blank")
@@ -205,10 +205,10 @@ const Navbar = (props) => {
             />
             <EmailIcon
               sx={{
-                color: "black",
+                color: "white",
                 fontSize: "30px",
                 cursor: "pointer",
-                "&:hover": { color: "white" },
+                "&:hover": { color: "#7a7a7a" },
               }}
               onClick={() =>
                 (window.location = "mailto:ellischung98@gmail.com")

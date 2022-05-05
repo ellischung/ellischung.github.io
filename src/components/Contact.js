@@ -9,7 +9,7 @@ const useStyles = makeStyles({
   root: {
     fontWeight: "bold",
     fontFamily: "Roboto Mono",
-    color: "black",
+    color: "white",
     textDecoration: "none",
     cursor: "pointer",
     transition: "transform 0.15s ease-in-out",
@@ -25,6 +25,7 @@ const Contact = () => {
   return (
     <div
       style={{
+        background: "black",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -35,6 +36,7 @@ const Contact = () => {
         style={{
           marginTop: "100px",
           marginBottom: "40px",
+          color: "white",
           fontSize: "24px",
           fontWeight: "bold",
           fontFamily: "Roboto Mono",
@@ -45,7 +47,7 @@ const Contact = () => {
       <p
         style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
       >
-        <EmailIcon sx={{ mr: 2 }} />
+        <EmailIcon sx={{ mr: 2, color: "white" }} />
         <Typography
           className={classes.root}
           href="mailto:ellischung98@gmail.com"
@@ -57,7 +59,7 @@ const Contact = () => {
       <p
         style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
       >
-        <GitHubIcon sx={{ mr: 2 }} />
+        <GitHubIcon sx={{ mr: 2, color: "white" }} />
         <Typography
           className={classes.root}
           href="https://github.com/ellischung"
@@ -72,10 +74,10 @@ const Contact = () => {
           display: "flex",
           flexDirection: "row",
           alignItems: "center",
-          marginBottom: "150px",
+          marginBottom: "100px",
         }}
       >
-        <FeedIcon sx={{ mr: 2 }} />
+        <FeedIcon sx={{ mr: 2, color: "white" }} />
         <Typography
           className={classes.root}
           href={require("../media/ellis-chung-cv.pdf")}
@@ -86,7 +88,13 @@ const Contact = () => {
         </Typography>
       </p>
       <p>
-        <Typography style={{ fontWeight: "bold", fontFamily: "Open Sans" }}>
+        <Typography
+          style={{
+            color: "white",
+            fontWeight: "bold",
+            fontFamily: "Open Sans",
+          }}
+        >
           &copy; Ellis Chung 2022
         </Typography>
       </p>

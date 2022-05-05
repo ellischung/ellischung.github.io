@@ -6,6 +6,7 @@ import CardActions from "@mui/material/CardActions";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { makeStyles } from "@mui/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 const useStyles = makeStyles({
   root: {
@@ -15,12 +16,13 @@ const useStyles = makeStyles({
     transition: "transform 0.15s ease-in-out",
     "&:hover": {
       transform: "scale3d(1.1, 1.1, 1)",
-      boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.33)",
+      boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.5)",
     },
   },
 });
 
 const Projects = () => {
+  const mobile = useMediaQuery("(max-width:1024px)");
   const classes = useStyles();
 
   return (
@@ -29,15 +31,17 @@ const Projects = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        textAlign: "center",
+        background: "#7a7a7a",
         paddingLeft: "20px",
         paddingRight: "20px",
       }}
     >
       <p
         style={{
+          marginLeft: mobile ? "0" : "-70%",
           marginTop: "100px",
-          marginBottom: "40px",
+          marginBottom: "50px",
+          color: "white",
           fontSize: "24px",
           fontWeight: "bold",
           fontFamily: "Roboto Mono",
@@ -51,36 +55,36 @@ const Projects = () => {
         alignItems="center"
         justifyContent="center"
         style={{
+          textAlign: "center",
           maxWidth: 1600,
           paddingLeft: "20px",
           paddingRight: "20px",
+          paddingBottom: "100px",
         }}
       >
         <Grid item>
           <Card className={classes.root}>
             <img
-              alt="mixtapeplus"
-              src={require("../media/mixtapepluslogo.png")}
-              style={{ width: 300, height: 200 }}
+              alt="guesstheanime"
+              src={require("../media/overclockedlogo.png")}
+              style={{ width: 300, height: 50, padding: "75px 0px 75px 0px" }}
             />
             <CardContent sx={{ background: "white" }}>
               <Typography
                 gutterBottom
                 style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
               >
-                MixtapePlus
+                Overclocked
               </Typography>
               <Typography
                 variant="body2"
                 color="text.secondary"
-                style={{ fontFamily: "Open Sans" }}
+                style={{ fontFamily: "Open Sans", height: 120 }}
               >
-                A full stack web application for visualizing personalized
-                Spotify data. Users can view statistics such as accumulated
-                minutes listened, genre/artist distribution, and more. Users can
-                also customize their profiles and create new playlists based on
-                their music preferences. This app uses the Spotify Web API to
-                play music and uses Axios to pull data from a REST API.
+                An e-commerce web application for PC components and tech
+                services. Utilizes e-commerce APIs from Commerce.js and Stripe
+                to provide the back end functionality. React.js was used for the
+                front end.
               </Typography>
             </CardContent>
             <CardActions sx={{ background: "white", justifyContent: "center" }}>
@@ -88,10 +92,22 @@ const Projects = () => {
                 variant="outlined"
                 sx={{ textTransform: "none", fontFamily: "Open Sans" }}
                 onClick={() =>
-                  window.open("http://mixtapeplus.herokuapp.com/", "_blank")
+                  window.open("https://overclockedus.netlify.app/", "_blank")
                 }
               >
                 Website
+              </Button>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open(
+                    "https://github.com/ellischung/overclocked",
+                    "_blank"
+                  )
+                }
+              >
+                Github
               </Button>
             </CardActions>
           </Card>
@@ -143,6 +159,46 @@ const Projects = () => {
                 }
               >
                 Github
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        <Grid item>
+          <Card className={classes.root}>
+            <img
+              alt="mixtapeplus"
+              src={require("../media/mixtapepluslogo.png")}
+              style={{ width: 300, height: 200 }}
+            />
+            <CardContent sx={{ background: "white" }}>
+              <Typography
+                gutterBottom
+                style={{ fontFamily: "Open Sans", fontWeight: "bold" }}
+              >
+                MixtapePlus
+              </Typography>
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                style={{ fontFamily: "Open Sans" }}
+              >
+                A full stack web application for visualizing personalized
+                Spotify data. Users can view statistics such as accumulated
+                minutes listened, genre/artist distribution, and more. Users can
+                also customize their profiles and create new playlists based on
+                their music preferences. This app uses the Spotify Web API to
+                play music and uses Axios to pull data from a REST API.
+              </Typography>
+            </CardContent>
+            <CardActions sx={{ background: "white", justifyContent: "center" }}>
+              <Button
+                variant="outlined"
+                sx={{ textTransform: "none", fontFamily: "Open Sans" }}
+                onClick={() =>
+                  window.open("http://mixtapeplus.herokuapp.com/", "_blank")
+                }
+              >
+                Website
               </Button>
             </CardActions>
           </Card>
@@ -282,7 +338,7 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
-        <Grid item>
+        {/* <Grid item>
           <Card className={classes.root}>
             <img
               alt="java"
@@ -319,7 +375,7 @@ const Projects = () => {
               </Button>
             </CardActions>
           </Card>
-        </Grid>
+        </Grid> */}
       </Grid>
     </div>
   );
