@@ -1,7 +1,7 @@
 import React from "react";
 import Scramble from "react-scramble";
 import Grid from "@mui/material/Grid";
-import background from "../media/temp.jpg";
+import background from "../media/bg.jpg";
 import mobileBg from "../media/mobile-bg.jpg"
 import useMediaQuery from "@mui/material/useMediaQuery";
 

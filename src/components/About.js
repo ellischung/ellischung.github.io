@@ -82,8 +82,8 @@ const About = () => {
             b-boying, anime, building PCs, and learning about new PC hardware.
           </Typography>
         </Grid>
-        <Grid item style={{}}>
-          <Grid item style={{ marginBottom: "40%" }}>
+        <Grid item>
+          <Grid item style={{ marginBottom: "30%" }}>
             <CardMedia
               component="video"
               style={{
