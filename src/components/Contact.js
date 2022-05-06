@@ -37,7 +37,7 @@ const Contact = () => {
           marginTop: "100px",
           marginBottom: "40px",
           color: "white",
-          fontSize: "24px",
+          fontSize: "3vh",
           fontWeight: "bold",
           fontFamily: "Roboto Mono",
         }}
