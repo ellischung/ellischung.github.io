@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     transition: "transform 0.15s ease-in-out",
     "&:hover": {
       transform: "scale3d(1.1, 1.1, 1)",
-      boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.5)",
+      boxShadow: "10px 10px 10px rgba(0, 0, 0, 1)",
     },
   },
 });
@@ -31,7 +31,7 @@ const Projects = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        background: "#7a7a7a",
+        background: "#515151",
         paddingLeft: "20px",
         paddingRight: "20px",
       }}
@@ -81,7 +81,7 @@ const Projects = () => {
                 color="text.secondary"
                 style={{ fontFamily: "Open Sans", height: 120 }}
               >
-                An e-commerce web application for PC components and tech
+                An e-commerce web application for selling PC components and tech
                 services. Utilizes e-commerce APIs from Commerce.js and Stripe
                 to provide the back end functionality. React.js was used for the
                 front end.
