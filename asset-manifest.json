@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.202b9b77.css",
-    "main.js": "/static/js/main.6ea4fd96.js",
+    "main.css": "/static/css/main.e94ee29b.css",
+    "main.js": "/static/js/main.c32ac234.js",
     "static/media/bboyclips.mp4": "/static/media/bboyclips.c3e55fbe8cb80bc04589.mp4",
-    "static/media/avatar.jpg": "/static/media/avatar.ca002d002a8dfeafa659.jpg",
+    "static/media/bg.jpg": "/static/media/bg.2c72de937ec7a867cf1c.jpg",
+    "static/media/mobile-bg.jpg": "/static/media/mobile-bg.afecda8d7b84e25a4049.jpg",
+    "static/media/overclockedlogo.png": "/static/media/overclockedlogo.9f0a413d892133d6d359.png",
     "static/media/guesstheanime.gif": "/static/media/guesstheanime.1d6179c6e4b77cb31a35.gif",
     "static/media/mixtapepluslogo.png": "/static/media/mixtapepluslogo.9975ec7d8f161d5f882b.png",
-    "static/media/javalogo.png": "/static/media/javalogo.fdabd4e11f1235e4e8e0.png",
-    "static/media/scsslogo.png": "/static/media/scsslogo.7cdbf6b5889c42b3e490.png",
     "static/media/recmeanime.png": "/static/media/recmeanime.7c4642ff7452fa4d3c68.png",
     "static/media/ellis-chung-cv.pdf": "/static/media/ellis-chung-cv.abb55021ef74df06aaef.pdf",
-    "static/media/nodelogo.png": "/static/media/nodelogo.c2e22c634a7336cbe298.png",
-    "static/media/mongodblogo.png": "/static/media/mongodblogo.dd7b7e2e32adfd26d3ed.png",
+    "static/media/reactlogo.png": "/static/media/reactlogo.04dc60f505fa7d4b6dab.png",
     "static/media/clogo.png": "/static/media/clogo.5acc0684cef4bccc29ab.png",
     "static/media/puppeteerlogo.png": "/static/media/puppeteerlogo.55c1cdec4fe6eebcec0b.png",
-    "static/media/jslogo.png": "/static/media/jslogo.db393457bf6303d846d6.png",
     "index.html": "/index.html",
-    "main.202b9b77.css.map": "/static/css/main.202b9b77.css.map",
-    "main.6ea4fd96.js.map": "/static/js/main.6ea4fd96.js.map"
+    "main.e94ee29b.css.map": "/static/css/main.e94ee29b.css.map",
+    "main.c32ac234.js.map": "/static/js/main.c32ac234.js.map"
   },
   "entrypoints": [
-    "static/css/main.202b9b77.css",
-    "static/js/main.6ea4fd96.js"
+    "static/css/main.e94ee29b.css",
+    "static/js/main.c32ac234.js"
   ]
 }
