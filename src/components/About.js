@@ -6,6 +6,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 const About = () => {
   const mobile = useMediaQuery("(max-width:1024px)");
+  const laptop = useMediaQuery("(max-width:1610px)");
 
   return (
     <div
@@ -33,6 +34,9 @@ const About = () => {
       </p>
       <Grid
         container
+        direction={mobile ? "column" : "row"}
+        alignItems={mobile && "center"}
+        justifyContent={mobile && "center"}
         style={{
           paddingLeft: "20px",
           paddingRight: "20px",
@@ -46,7 +50,7 @@ const About = () => {
             marginLeft: mobile ? "0" : "10%",
             marginRight: mobile ? "0" : "10%",
             marginBottom: "50px",
-            width: !mobile && "35%",
+            maxWidth: laptop ? 500 : "35%",
           }}
         >
           <Typography sx={{ fontSize: "2vh", fontFamily: "Open Sans" }}>
@@ -87,7 +91,8 @@ const About = () => {
             <CardMedia
               component="video"
               style={{
-                maxWidth: 550,
+                margin: "auto",
+                maxWidth: laptop ? 400 : 550,
                 borderRadius: "20px",
                 boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.33)",
               }}
@@ -110,7 +115,7 @@ const About = () => {
             </Typography>
             <Grid
               container
-              spacing={5}
+              spacing={mobile ? 5 : laptop ? 2 : 5}
               alignItems="center"
               justifyContent="center"
             >
