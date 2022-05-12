@@ -2,7 +2,7 @@ import React from "react";
 import Scramble from "react-scramble";
 import Grid from "@mui/material/Grid";
 import background from "../media/bg.jpg";
-import mobileBg from "../media/mobile-bg.jpg"
+import mobileBg from "../media/mobile-bg.jpg";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function HeaderWrapper({ ...rest }) {
@@ -115,9 +115,8 @@ class Header extends React.Component {
               marginRight: mobile ? "3.5%" : "15%",
               maxWidth: "500px",
               color: "#7a7a7a",
-              fontSize: shrink ? "0" : "2vh",
+              fontSize: shrink && "0",
               fontFamily: "Open Sans",
-
             }}
           >
             Hello! I'm a Full Stack Web Developer based in NY who is open to any
